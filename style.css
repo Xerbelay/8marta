@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #333;
+}
+
+/* Шапка */
+.header {
+    padding: 50px 0;
+    background: url('https://source.unsplash.com/1600x900/?spring') no-repeat center center;
+    background-size: cover;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Основной контент */
+.container {
+    max-width: 1000px;
+}
+
+/* Картинки */
+.img-fluid {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+}
+
+/* Кнопка */
+.animate-btn {
+    background: #ff4081;
+    border: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.animate-btn:hover {
+    background: #e91e63;
+    transform: scale(1.1);
+}
+
+/* Футер */
+.footer {
+    margin-top: 2.8%;
+    padding: 20px;
+    background: #333;
+}
